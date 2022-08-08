@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c8f0f44.css",
-    "main.js": "/static/js/main.122449a7.js",
-    "static/js/787.d6fe38e8.chunk.js": "/static/js/787.d6fe38e8.chunk.js",
-    "static/media/cart.gif": "/static/media/cart.900d22b1ea1e769170ed.gif",
-    "index.html": "/index.html",
-    "main.5c8f0f44.css.map": "/static/css/main.5c8f0f44.css.map",
-    "main.122449a7.js.map": "/static/js/main.122449a7.js.map",
-    "787.d6fe38e8.chunk.js.map": "/static/js/787.d6fe38e8.chunk.js.map"
+    "main.css": "/bamidelee/shopping-cart/static/css/main.a03244bf.css",
+    "main.js": "/bamidelee/shopping-cart/static/js/main.1c27a3cc.js",
+    "static/js/787.d6fe38e8.chunk.js": "/bamidelee/shopping-cart/static/js/787.d6fe38e8.chunk.js",
+    "static/media/cart.gif": "/bamidelee/shopping-cart/static/media/cart.900d22b1ea1e769170ed.gif",
+    "index.html": "/bamidelee/shopping-cart/index.html",
+    "main.a03244bf.css.map": "/bamidelee/shopping-cart/static/css/main.a03244bf.css.map",
+    "main.1c27a3cc.js.map": "/bamidelee/shopping-cart/static/js/main.1c27a3cc.js.map",
+    "787.d6fe38e8.chunk.js.map": "/bamidelee/shopping-cart/static/js/787.d6fe38e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c8f0f44.css",
-    "static/js/main.122449a7.js"
+    "static/css/main.a03244bf.css",
+    "static/js/main.1c27a3cc.js"
   ]
 }
