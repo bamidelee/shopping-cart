@@ -1,0 +1,39 @@
+.cartImage{
+    width: 10rem;
+    height: 10rem;
+}
+.cartItems{
+    display: flex;
+    align-items: flex-end;
+    margin: 1rem;
+}
+.addAmountCart{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 3rem;
+}
+.remove{
+    display: flex;
+    align-items: center;
+}
+.cartContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    overflow-y: scroll ;
+    flex-wrap: wrap;
+  
+}
+.mainCart{
+    border: 2px solid  rgb(128 113 26);
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    justify-items: center;
+    height: 80vh;
+}
+.checkout{
+    width: 14rem;
+    font-size: 1.5rem;
+}

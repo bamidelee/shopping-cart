@@ -1,0 +1,71 @@
+.slider{
+    width: 60vmin;
+    height: 60vmin;
+    display: none; 
+}
+
+.slideContainer{
+    width: 60vmin;
+    overflow: hidden;
+    display: flex;
+}
+.active{
+    display: block;
+    opacity: 1;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+@keyframes fadeIn{
+    from{
+        transform: translateX(100px);
+        opacity: 0.5;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.dot{
+    height: 2rem;
+    width: 2rem;
+}
+
+.dotContainer{
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+
+}
+.detailsContainer{
+    display: grid;
+    align-items: center;
+    height: 80vh;
+    box-shadow: -2px -1px 3px rgb(128 113 26), 3px 2px 5px rgb(128 113 26);
+    padding: 0 3%;
+    grid-template-columns: auto auto;
+    gap: 2px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.detailsLeft{
+    font-size: 1.5rem;
+}
+.price{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.addAmountDetails{
+    justify-content: flex-start;
+    align-items: center;
+    width: 3rem;
+}
+@media only screen and (max-width: 800px) {
+    .detailsContainer{
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+  }

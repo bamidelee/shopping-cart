@@ -1,0 +1,65 @@
+.logo{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 3rem;
+    color: rgb(128, 112, 26);
+    align-self: center;
+    justify-self: center;
+}
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+    margin-top: 0;
+}
+
+.fixed{
+    padding: 2rem 0 ;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+}
+.link:hover{
+    color:rgb(128, 112, 26) ;
+}
+nav{
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+
+.home{
+    width: 80vmin;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url('./cart.gif');
+    background-size: cover;
+    height: 80vh;
+}
+.homeLogo{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 4rem;
+    color: rgb(128, 112, 26);
+    padding-top: 4rem;
+  
+}
+.homeContent{
+    background-color: rgba(0, 0, 0, 0.253);
+    color: white;
+}
+.shopNow{
+    color: white;
+    text-decoration: underline;
+}
+.cart{
+    display: flex;
+    align-items: flex-end;
+}

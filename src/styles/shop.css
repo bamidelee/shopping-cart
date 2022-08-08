@@ -1,0 +1,57 @@
+button{
+    border: none;
+    background-color: rgb(128, 113, 26);
+    margin: .5rem;
+    color: white;
+    border-radius: 10px;
+}
+button:hover{
+    color:rgb(128, 113, 26) ;
+    background-color: white;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+.storeImage{
+   width: 8rem;
+   height: 10rem;
+}
+figcaption{
+    width: 8rem;
+    text-align: center;
+}
+.itemName{
+    height: 2rem;
+    overflow: hidden;
+}
+.ATC{
+    width: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+    margin-top: 1%;
+}
+.storeItem{
+    margin: 0;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    box-shadow: -2px -1px 3px rgb(128 113 26), 3px 2px 5px rgb(128 113 26);
+    transition: all;
+    overflow: hidden;
+}
+.storeItem:hover{
+    transform: translateY(2px);
+    box-shadow: -2px -1px 3px 2px rgb(128 113 26), 3px 2px 5px 2px rgb(128 113 26);
+}
+.addAmount{
+    justify-content: center;
+    align-items: center;
+}
